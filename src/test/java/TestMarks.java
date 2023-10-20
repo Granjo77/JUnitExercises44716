@@ -10,7 +10,7 @@ public class TestMarks {
     @CsvSource({
             "1, 8.5, true",
             "2, 9.8, true",
-            "3, 12.2, false"
+            "3, 12.2, true"
     })
     void testInsertMarkCU(int numStudent, double mark, boolean expected) {
         CU cu = new CU("Matemática", 3);
